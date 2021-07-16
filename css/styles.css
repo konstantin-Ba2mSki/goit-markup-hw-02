@@ -5,11 +5,14 @@ font-family: 'Roboto', sans-serif;
   --primary-text-color: #ffffff;
   --title-text-color: rgba(0, 0, 0, 0.8);
   --accent-color: #ff0000;
-  --title: #212121;
-  --text: #757575;
+  --contact-list: #212121;
+  --contact-list .list: rgba(117, 117, 117, 1);
+
   --site-nav: #212121;
   --info-links: #ffffff;
 }
+
+
 
 body {
   background-color: #ffffff;
@@ -36,13 +39,8 @@ body {
   color: #2196f3;
   font-size: 26px;
   line-height: 1, 19em;
-  text-decoration: none;
 }
 
-
-ul {
-  list-style: none;
-}
 
 /*навигация*/
 
@@ -58,18 +56,34 @@ ul {
   color: #2196f3;
 }
 
-.adress-links .link {
+.auth-nav .link {
   color: #757575;
   font-size: 14px;
   line-height: 1, 1em;
   text-decoration: none;
 }
 
-.adress-links .link:hover, 
-.adress-links .link:focus {
+.auth-nav .link:hover, 
+.auth-nav .link:focus {
   color: #2196f3;
 }
 
+/*studio*/
+
+.hero {
+  background-color: #2F303A;;
+}
+
+.hero .title {
+  color: #ffffff;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #2196F3;
+}
+
+/*portfolio*/
 
 /*первая секция*/
 
@@ -97,17 +111,26 @@ ul {
 
 /*вторая секция*/
 
-.title {
-  color: #212121;
+.contact-list {
+  color: var(--title);
   font-size: 18px;
   line-height: 2em;
 }
 
-.text {
-  color: var(--p-color);
+.contact-list .list {
+  color: var(--site-text);
   font-size: 16px;
   line-height: 1, 875em;
 }
+
+ .list {
+  list-style: none;
+}
+
+.list .text {
+  color: #757575;
+}
+
 
 /*footer*/
 
@@ -124,24 +147,25 @@ ul {
   color: #2196f3;
 }
 
-.bg  {
-  background-color: #2F303A;
-}
+ .footer {
+    background-color: #2F303A;
+  } 
 
-.text-color{
+.text-color {
   color: #ffffff;
+  font-style: normal;
 }
 
 .logo-wb {
   color: #2196f3;
   font-size: 26px;
   line-height: 1, 19em;
+  text-decoration: none;
 }
 
 .logo-stud {
   color: #ffffff;
   font-size: 26px;
-  line-height: 1, 19em;
 {
 
 
