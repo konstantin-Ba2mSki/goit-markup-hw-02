@@ -2,11 +2,11 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 
 :root {
-  --primary-text-color: #ffffff;
-  --title-text-color: rgba(0, 0, 0, 0.8);
-  --accent-color: #ff0000;
-  --contact-list: #212121;
-  --contact-list .list: rgba(117, 117, 117, 1);
+  --primary-text-color:      #ffffff;
+  --title-text-color:        rgba(0, 0, 0, 0.8);
+  --accent-color:            #ff0000;
+  --contact-list:            #212121;
+  --contact-list .list:        rgba(117, 117, 117, 1);
 
   --site-nav: #212121;
   --info-links: #ffffff;
@@ -19,12 +19,6 @@ body {
   color: var(--primary-text-color);
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: bold;
-}
-
 /*logo*/
 
 
@@ -33,12 +27,14 @@ body {
   font-size: 26px;
   line-height: 1, 19em;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .logo-studio {
   color: #2196f3;
   font-size: 26px;
   line-height: 1, 19em;
+  font-weight: bold;
 }
 
 
@@ -71,16 +67,24 @@ body {
 /*studio*/
 
 .hero {
-  background-color: #2F303A;;
+  background-color: #2F303A;
 }
 
 .hero .title {
   color: #ffffff;
 }
 
-.button {
+
+.btn {
   color: #ffffff;
   background-color: #2196F3;
+  height: 50px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #188CE8;
 }
 
 /*portfolio*/
@@ -93,7 +97,6 @@ body {
   width: 1px;
   height: 1px;
   margin: -1px;
-  ...;
 }
 
 .site-pages .page {
@@ -161,11 +164,13 @@ body {
   font-size: 26px;
   line-height: 1, 19em;
   text-decoration: none;
+  font-weight: roboto;
 }
 
 .logo-stud {
   color: #ffffff;
   font-size: 26px;
+  font-weight: roboto;
 {
 
 
