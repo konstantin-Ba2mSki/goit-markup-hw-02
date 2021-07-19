@@ -1,12 +1,12 @@
 /* root */
 
 :root {
+  --accent-color: #2196f3;
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --accent-color: #2196f3;
   --logo-color: #000000;
 }
-/* fonts */
+/* root fonts */
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -69,8 +69,11 @@ body {
   color: var(--accent-color);
 }
 
+/* contact list */
+
 .auth-nav-link {
   color: #757575;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -100,6 +103,8 @@ body {
   letter-spacing: 0.06em;
 }
 
+/* herob-btn */
+
 .hero-btn {
   color: #ffffff;
   background-color: var(--accent-color);
@@ -109,6 +114,7 @@ body {
   font-size: 14px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -217,15 +223,68 @@ body {
 }
 
 .contact-item .link {
-  color: gba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
+  list-style: none;
   letter-spacing: 0.03em;
 }
 
 .contact-item .link:hover,
 .contact-item .link:focus {
   color: var(--accent-color);
+}
+
+/* Portfolio */
+
+/* buttons */
+
+.filter-item {
+  list-style-type: none;
+}
+
+.filter-button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border-radius: 4px;
+  border: none;
+  letter-spacing: 0.03em;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* section */
+
+.gallery-item {
+  list-style: none;
+}
+
+.gallery-title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.gallery-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
 }
