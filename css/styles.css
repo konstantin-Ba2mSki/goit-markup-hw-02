@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 /* root */
 
 :root {
@@ -43,6 +53,10 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.container {
+  background-color: #757575;
 }
 
 /* navbar */
